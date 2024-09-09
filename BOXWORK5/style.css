@@ -1,0 +1,41 @@
+.border{
+    border: 2px solid black;
+}
+.header{
+    background-color: pink;
+    width: 50%;
+    height: 100px;
+    margin-left: 400px;
+    padding-left: 80px;
+}
+.aside1{
+    background-color:yellow;
+    width: 50%;
+    height: 100px;
+    margin-right: auto;
+    padding-right: 80px;
+}
+.aside2{
+    background-color:green;
+    width: 50%;
+    height: 100px;
+    margin-left: auto;
+    padding-left: 70px;
+}
+.main{
+    background-color:aqua;
+    width: 50%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.footer{
+    background-color: red;
+    width: 50%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 80px;
+}

@@ -1,0 +1,20 @@
+.border{
+    border: 2px solid black;
+}
+.parent{
+    background-color:aqua;
+    display: flex;
+}
+
+.child{
+    justify-content: center;
+}
+.child1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.child3{
+    display: flex;
+    text-align: center;
+
+}

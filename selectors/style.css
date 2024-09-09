@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+}
+#main{
+    color: pink;
+    text-align: center;
+    text-decoration: underline;
+}
+#second{
+    color: yellow;
+}
+.text-success{
+    color: green;
+}
+.fine{
+    color: blue;
+}

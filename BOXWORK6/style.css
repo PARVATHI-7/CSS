@@ -1,0 +1,27 @@
+.border{
+    border: 2px solid black;
+}
+.parent{
+    width: 350px;
+    height: 200px;
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+}
+.child1{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.child2{
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}

@@ -1,0 +1,44 @@
+.border{
+    border: 2px solid black;
+
+} 
+body{
+    background-color: #f5eceb;
+
+}
+.cardgroup{
+    width: 80%;
+    min-height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #d4c6c9;
+
+
+}
+.card{
+    width: 30%;
+    min-height: 500px;
+    padding: 20px;
+    background-color: aliceblue;
+    color:plum;
+    border-radius: 10px;
+
+}
+.cardimage>img{
+    width: 100%;
+}
+
+.cardbody{
+    line-height: 25px;
+    text-align: center;
+}
+.cardfooter{
+    display: flex;
+    justify-content: space-between;
+}
+.cardfooter>button{
+    height: 40px;
+
+}

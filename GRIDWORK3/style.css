@@ -1,0 +1,33 @@
+.border{
+    border: 2px solid black;
+
+}
+.parent{
+    width: 75%;
+    height: 500px;
+    background-color: greenyellow;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+.child{
+    background-color: aqua;
+}
+.parent>:nth-child(1),.parent>:nth-child(5){
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: plum;
+    /* padding-left: 10px; */
+    /* grid-column: 1/4; */
+}
+.parent>:nth-child(3){
+    grid-row-start: 2;
+    grid-row-end: 2;
+    align-items: center;
+}
+.bt-success{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}

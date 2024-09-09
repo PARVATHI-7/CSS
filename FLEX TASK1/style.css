@@ -1,0 +1,28 @@
+
+.parent{
+    width: 70%;
+    height: 100px;
+    background-color:yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child {
+    width: 55px;
+    height: 25px;
+    background-color: green;
+    margin: 10px;
+}
+.child1{
+    width: 65px;
+    height: 35px;
+    background-color: greenyellow;
+    margin: 10px;
+}
+
+.child2{
+    width: 75px;
+    height: 35px;
+    background-color: gold;
+    margin: 10px;
+}

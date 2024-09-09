@@ -1,0 +1,25 @@
+
+.border{
+    border: 2px solid black;
+}
+
+
+
+
+.header{
+    width: 50vw;
+    height: 100px;
+    background-color: grey;
+    text-align: top;
+    margin-left: 400px;
+    padding-left: 60px;
+}
+.footer{
+    width: 50vw;
+    height: 100px;
+    background-color: pink;
+    text-align: bottom;
+    margin-top: 400px;
+    margin-left: 400px;
+    padding-left: 60px;
+}
